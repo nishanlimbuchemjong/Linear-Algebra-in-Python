@@ -41,12 +41,17 @@ matrix2 = [
 result = matrix_addition(matrix1, matrix2)
 
 # printing the result:
+# printing the matrix A
 print("Matrix A:")
 for i in matrix1:
     print(i)
+
+# printing the matrix B
 print("\nMatrix B:")
 for i in matrix2:
     print(i)
+
+# printing result after addition
 print("\nMatrix Addition:")
 for row in result:
     print(row)
